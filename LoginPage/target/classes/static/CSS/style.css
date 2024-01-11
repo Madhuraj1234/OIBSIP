@@ -1,0 +1,26 @@
+.bg {
+	background-color: #4caf50;
+}
+
+.round {
+	border-radius: 1.5rem;
+	overflow: hidden;
+	box-shadow: 5px y-offset;
+}
+
+p {
+	margin: 0
+}
+
+.btn-block.round.bg.btn-lg {
+	margin-bottom: 20%;
+}
+
+.shift {
+	margin-left: 67px;
+}
+
+.card {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
