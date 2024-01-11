@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+.font {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 100px;
+}
+
+.tribute .container img {
+    margin-top: 65px;
+    width: 400px;
+    height: 400px;
+    background-image: url('/images/Virat-Kohli.jpg');
+    background-size: 200px; /* or contain, depending on your needs */
+    background-position: center center; /* adjust as needed */
+    border-radius: 500px;
+    border: 5px solid #e2e2e2;
+}
+
+.tribute .timeline h1 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.tribute .timeline .container p {
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.tribute .timeline .container hr {
+    border-color: white;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.tribute .more h5 {
+    margin-bottom: 20px;
+}
+
+.tribute .more h5 a {
+    text-decoration: none;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .font {
+        font-size: 40px;
+    }
+
+    .tribute .container img {
+        margin-top: 20px;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .tribute .timeline h1 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .tribute .timeline .container p {
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .tribute .timeline .container hr {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .tribute .more h5 {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+}
