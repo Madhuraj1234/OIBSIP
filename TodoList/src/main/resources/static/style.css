@@ -1,0 +1,52 @@
+.navbar-custom{
+	background-color: #f44336;
+}
+
+.nav-link{
+	font-size: 18px;
+}
+
+.container .row .col-md-6{
+	margin-top: 10%;
+}
+
+.container .row .col-md-6 .card{
+	border-radius: 25px;
+	overflow: hidden;
+	border: 1px solid red;
+}
+
+.container .row .col-md-6 .card .bg{
+	background-color: #f44336;
+}
+
+.card{
+	width: 90%;
+	margin: 0 5% 0 5%;
+	border: 1px solid black;
+}
+
+.mt-3{
+	margin-left: 5.5%;
+}
+
+.card-body h5{
+	margin-top: -12px;
+}
+
+.card-body button{
+	margin-bottom: -10px;
+}
+
+.add{
+	margin-left: 74%;
+}
+
+.shift{
+	margin-top: 10px;
+}
+
+.pagination{
+	margin-top: 2%;
+	margin-bottom: -10px;
+}
